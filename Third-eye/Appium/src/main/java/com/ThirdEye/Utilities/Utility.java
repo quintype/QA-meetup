@@ -21,9 +21,10 @@ public class Utility {
         capabilities.setCapability("automationName","UiAutomator2");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("platformVersion","9");
-        capabilities.setCapability("appPackage","com.android.calculator2");
-        capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
-
+        capabilities.setCapability("appPackage","com.example.qameetup");
+        capabilities.setCapability("appActivity","com.example.qameetup.MainActivity");
+        capabilities.setCapability("appActivity","com.example.qameetup.LoginActivity");
+        capabilities.setCapability("appActivity","com.example.qameetup.SplashActivity");
         driver= new AppiumDriver<MobileElement>(appiumHost,capabilities);
         return  driver;
 
