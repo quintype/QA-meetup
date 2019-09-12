@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24366" started-at="2019-09-12T17:13:26Z" finished-at="2019-09-12T17:13:50Z">
+    <groups>
+    </groups>
+    <test name="TestGeoLocationAutomatedCollection" duration-ms="24366" started-at="2019-09-12T17:13:26Z" finished-at="2019-09-12T17:13:50Z">
+      <class name="AndroidAppTest">
+        <test-method status="PASS" signature="setUpApp()[pri:0, instance:AndroidAppTest@50c87b21]" name="setUpApp" is-config="true" duration-ms="15519" started-at="2019-09-12T17:13:26Z" finished-at="2019-09-12T17:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApp -->
+        <test-method status="PASS" signature="verifyInvalidPasswordMessage()[pri:1, instance:AndroidAppTest@50c87b21]" name="verifyInvalidPasswordMessage" duration-ms="6058" started-at="2019-09-12T17:13:41Z" description="Verify invalid Password" finished-at="2019-09-12T17:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswordMessage -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:2, instance:AndroidAppTest@50c87b21]" name="verifyValidLogin" duration-ms="2764" started-at="2019-09-12T17:13:47Z" description="Verify valid login" finished-at="2019-09-12T17:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- AndroidAppTest -->
+    </test> <!-- TestGeoLocationAutomatedCollection -->
+  </suite> <!-- Suite -->
+</testng-results>
