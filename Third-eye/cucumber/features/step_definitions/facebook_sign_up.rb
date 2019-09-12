@@ -4,7 +4,7 @@ Given ('I open browser') do
 end
 
 When ('I launch facebook URL') do
-  @browser.launch_url(gURL)
+  @browser.launch_url(URL)
 end
 
 Then ('I see sign-up page') do
