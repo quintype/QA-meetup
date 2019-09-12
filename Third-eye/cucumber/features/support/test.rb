@@ -1,4 +1,4 @@
-class Facebook
+class Test
 
   def wait_for_element_to_display(element)
     Selenium::WebDriver::Wait.new(timeout: 30).until{$driver.find_element(css: element).displayed?}

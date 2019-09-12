@@ -8,6 +8,6 @@ When ('I launch facebook URL') do
 end
 
 Then ('I see sign-up page') do
-  @facebook = Facebook.new
+  @facebook = Test.new
   expect(@facebook.is_sign_up_button_displayed).to eq(true)
 end
