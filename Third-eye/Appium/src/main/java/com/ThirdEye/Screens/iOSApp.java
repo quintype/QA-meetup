@@ -1,4 +1,4 @@
-package com.ThirdEye.Pages;
+package com.ThirdEye.Screens;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -6,20 +6,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SampleApp {
+public class iOSApp {
+
     public AppiumDriver<MobileElement> driver;
-    String userNameField = "com.example.qameetup:id/activity_login_tet_username";
-    String passwordField = "com.example.qameetup:id/activity_login_tet_password";
+    String userNameField = "";
+    String passwordField = "";
     String invalidEmailElement = "";
-    String invalidPasswordElement = "com.example.qameetup:id/textinput_error";
-    String loginButton = "com.example.qameetup:id/activity_login_cv_login";
+    String invalidPasswordElement = "";
+    String loginButton = "";
     WebDriverWait wait;
 
-    public SampleApp(AppiumDriver<MobileElement> driver)
+
+    public iOSApp(AppiumDriver<MobileElement> driver)
     {
         this.driver = driver;
     }
-
     public void enterUserName(String userName){
         wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id(userNameField)));
@@ -43,8 +44,4 @@ public class SampleApp {
         return driver.findElement(By.id(invalidPasswordElement));
 
     }
-
-
-
-
 }
