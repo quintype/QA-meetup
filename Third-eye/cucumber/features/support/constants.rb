@@ -1,3 +1,3 @@
 URL = 'https://www.facebook.com'
-USERNAME = 'tyler_kgiyzep_durden@tfbnw.net'
+USERNAME = 'drow_ruizrlq_ranger@tfbnw.net'
 PASSWORD = 'pass@123'
